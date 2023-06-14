@@ -1,0 +1,5 @@
+version="0.3.2"
+
+[scripts]
+run="cd src && zig run main.zig"
+test="cd src && zig test main.zig"

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/workspaces/zigrust/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/main.dir/main.cpp.o -c /workspaces/zigrust/client/main.cpp",
+  "file": "/workspaces/zigrust/client/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]

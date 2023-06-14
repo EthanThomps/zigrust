@@ -1,0 +1,19 @@
+version: '3.0'
+
+services:
+  database:
+    command: bonnie run
+    expose:
+      - 5000:5000
+  server:
+    command: bonnie run
+    expose:
+      - 8080:8080
+    depends_on:
+      - database
+  client:
+    command: bonnie run
+    expose:
+      - 7878:7878
+    depends_on:
+      - server

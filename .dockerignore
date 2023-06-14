@@ -1,0 +1,6 @@
+/server/target
+.env
+/client/build/CMakeFiles
+/client/build/.cmake 
+/server/zig-cache
+/server/zig-out
